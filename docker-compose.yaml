@@ -10,5 +10,5 @@ services:
     - "3478:3478/udp"
     restart: always
     volumes:
-            - /mnt/docker/unifi/data:/var/lib/unifi
-            - /mnt/docker/unifi/logs:/var/log/unifi 
+            - /dockerstore/unifi/data:/var/lib/unifi
+            - /dockerstore/unifi/logs:/var/log/unifi 
